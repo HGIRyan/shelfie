@@ -30,3 +30,110 @@
     transform: rotate(360deg);
   }
 }
+/* img {
+  max-height: 10vh;
+} */
+.header {
+  background-color: #AB2A19;
+  height: 10vh;
+  display: flex;
+  /* justify-content: space-around; */
+}
+.logo {
+  max-height: 80%;
+  padding-left: 12%;
+}
+
+.Product {
+  width: 350px;
+  padding: 15px;
+  border-radius: 7px;
+  background-color: #d34735;
+  margin: 2%;
+
+}
+.Product>* {
+  margin: 10px 0;
+}
+.product_img {
+  max-width: 320px;
+  /* max-height: 200px; */
+  margin: 0 auto;
+  background-position: 50%;
+  background-size: cover;
+  
+}
+.product_box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.Dash {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.Form {
+  width: 350px;
+  height: 520px;
+  padding: 15px;
+  margin: 5% ;
+  margin-right: 10%;
+  margin-left: 1%;
+  border-radius: 7px;
+  background-color: #3ad886;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.form_button_box>button {
+  padding: 10px;
+  margin: 5px 10px;
+  background-color: #ed6b5a;
+  border-radius: 7px;
+  border: none;
+  font-family: Open Sans,sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+.form_image {
+  max-height: 50%
+}
+
+.body {
+  display: flex;
+}
+button {
+  padding: 10px;
+  margin: 5px 10px;
+  background-color: white;
+  border-radius: 7px;
+  border: none;
+  font-family: Open Sans,sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+input[type=text]:focus {
+  background-color: #ED6B5A;
+}
+
+/* input {
+  padding: 2%;
+  
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+} */
